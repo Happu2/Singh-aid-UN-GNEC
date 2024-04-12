@@ -1,0 +1,360 @@
+<html>
+  <head>
+    <title>Singh Aid</title>
+    <link href="https://fonts.googleapis.com/css2?family=Chivo:wght@300;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="css/style.css" type="text/css" rel="stylesheet" />
+    <link rel="icon" type="image/png" href="assets/singh aid.png\">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  </head>
+
+  <body>
+    <aside>
+      <nav id="sidebar">
+        <a href="#landing"><img src="assets/singh aid.png" id="logo" alt="Logo"/></a>
+        <div id="close" onclick="closeNav()">×</div>
+        <ul id="navOptions">
+          <li id="story-li"><a href="#story">OUR STORY</a></li>
+          <li id="why-li"><a href="#why">WHY IT WORKS</a></li>
+          <li id="who-li"><a href="#who">WHO WE ARE</a></li>
+          <li id="partners-li"><a href="#partners">PARTNERS</a></li>
+          <li id="join-li"><a href="#join">JOIN US</a></li>
+        </ul>
+        <!-- change these links after rebrand -->
+        </div>
+      </nav>
+    </aside>
+    <div id="header">
+        <a href="#landing"><img src="assets/singh aid.png" id="logo" alt="logo" /></a>
+        <button class="hamburger" type="button" onclick="openNav()">
+            <span class="hamburger-box">
+              <span class="hamburger-inner"></span>
+            </span>
+        </button>
+    </div>
+  
+    <script>
+        function openNav() {
+          document.getElementById("sidebar").style.display = "block";
+          document.getElementById("logo").style.display="none";
+          document.getElementById("navOptions").style.marginTop = "120px";
+          document.getElementById("close").style.display="inline";
+        }
+        
+        function closeNav() {
+          document.getElementById("sidebar").style.display = "none";
+        }
+    </script>
+
+    <div>
+    <section id="landing">
+        <div id="info">
+            <div id="text">Singh aid is a digital system that works hand-in-hand with our partners in the field to deliver humanitarian aid quickly and fairly. </div>
+        </div>
+        <button id="support" onclick="window.open('https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=A8P3SYKKUPMPN&source=url');">SUPPORT OUR MISSION & DONATE</button>
+    </section>
+
+    <section id="story">
+        <span id="headline-start" >OUR STORY &nbsp</span> <span id="headline-end"> WHAT DRIVES US</span>
+        <div id="description">
+            Vulnerable people in emergency scenarios are often stripped of their dignity and self-determination. Assistance often comes too late, disconnected with people’s real needs. Aid workers struggle to keep up with the changing situation on the ground.
+            <br /> <br />
+            Having witnessed this first-hand, we think aid delivery works when it is supported by a system that:
+            <!-- <div id="stat">
+                <div id="counter">
+                    <p class="counter-value" data-count="10000"></p>
+                    <span id="stat-label">PEOPLE SUPPORTED</span>
+                </div>
+            </div> -->
+            <div id="li-1">
+                <strong> Encourages solidarity </strong> between recipients and aid workers
+            </div>
+            <div id="li-2">
+                <strong> Respects the needs </strong> of the recipients through choice
+            </div>
+            <div id="li-3">
+                <strong> Reflects best practice </strong> in humanitarian logistics.
+            </div>
+            <div id="headline-bottom">
+                THAT'S WHY WE CREATED BOXTRIBUTE.
+            </div> 
+            <div id="subheader-bottom">
+                TOGETHER WE CAN MAKE A DIFFERENCE.
+            </div>
+        </div>
+    </section>
+
+    <section id="story">
+        <span id="headline-start">OUR STORY &nbsp</span> <span id="headline-end"> HOW WE STARTED</span>
+        <div id="photos">
+            <img src="assets/warehouse/before-warehouse-txt.png" alt="before" />
+            <img src="assets/warehouse/after-warehouse-txt.png" alt="after" />
+        </div>
+        <div id="description">
+            Our story begins in autumn 2016, at the height of the European refugee crisis, in a camp in Northern Greece. 
+            <br /> <br />
+            We are volunteers with a Norwegian NGO tasked with distributing donations like clothes, hygiene products, and food to refugees. It was chaos for everyone involved. The situation had to change. 
+            <br /> <br />
+            We created a system where through our web-app, a free shop was opened where all beneficiaries could have the same fair choice. Volunteers knew what items were available and where. Coordinators gave out virtual currency and tracked what was bought with it. 
+            <br /> <br />
+            <strong>It was a great success!</strong> The shop changed how volunteers and refugees interacted - it became a place where everyone liked to go. To help other vulnerable communities, we had the dream to support many other humanitarian organizations with this system so that they could experience the same success. Read more details about our current organization, including our policy plan and financial reports.
+        </div>
+    </section>
+
+    <section id="why">
+        <span id="headline-start">WHY IT WORKS &nbsp</span> <span id="headline-end"> AT A GLANCE</span>
+        <div id="subtitle">
+            singh-aid is made by former coordinators and volunteers who have worked in the field and understand its challenges. Its designed to work within the flow of an existing team and be <strong>ready to go in a month or less.</strong>
+        </div>
+        <div id="quote">
+            singh-aid is super functional, so you actually dont need that much training. It speaks for itself.<span id="source"> Laura Vigourt, volunteer at Drapen i Havet</span>
+        </div>
+
+
+
+
+        <div class="three-by-two-grid">
+            
+            <div class="first-row">
+                <div id="subheader">
+                    <div id="title">SIMPLIFY THE WAREHOUSE</div> With our <strong> smartphone-scannable labels</strong>, aid workers always know what kind of stock they have, how much is available and where it is. With a <strong>searchable list of everything</strong> inside the warehouse, tracking becomes easy!
+                </div>
+            </div>
+
+            <div id="stat" class="second-row-right">
+                <div id="counter">
+                    <p class="counter-value" data-count="317582"></p>
+                    <div id="stat-label">ITEMS IN STORAGE NOW</div>
+                </div>
+            </div>
+
+            <div class="second-row-left">
+                <div>
+                    <div id="subheader">
+                        <div id="title">UNDERSTAND BENEFICIARIES</div> Register beneficiaries in a <strong>GDPR-compliant</strong> way! Organizations can see the <strong>population profile</strong> of their beneficiaries, making it easier to adjust distributions to fit.
+                    </div>
+                </div>
+            </div>
+
+
+            <div id="subheader">
+                <div id = "title">ENABLE A FREE AND FAIR CHOICE</div>Transform the experience of receiving aid with our <strong> free shop system</strong>! Instead of a handout, people choose what they need for themselves.
+            </div>
+    
+            <div id="stat">
+                <div id="counter">
+                    <p class="counter-value" data-count="21336"></p>
+                    <div id="stat-label">ITEMS DISTRIBUTED PER MONTH</div>
+                </div>
+            </div>
+        </div>
+     
+            <!-- <div id="bar-chart">
+                Placeholder for bar chart
+            </div> -->
+    </section>
+
+    <section id="why">
+        <span id="headline-start">WHY IT WORKS &nbsp</span> <span id="headline-end"> EVEN MORE</span>
+        <div id="subheader">
+            <div id="title"><strong>VIRTUAL CURRENCY & ORDER MANAGEMENT </strong></div>Take distribution to the next level! Use our shop system to issue <strong> virtual tokens </strong> to beneficiaries and <strong> set ‘prices’</strong> for shop items. Make an <strong> order to the warehouse</strong> when stock runs low.
+        </div>
+        <div id="subheader">
+            <div id="title"><strong>EMPOWER COORDINATORS</strong></div> Life is hectic as a field coordinator - a misplaced item here, a person that can’t be found there, and hours of chaos can result. Switching coordinators is a difficult process that often results in critical knowledge loss from the team. Keeping it all in sync on Boxtribute makes their lives easier so they can focus on what really matters.
+        </div>
+        <div id="elements" style="padding-bottom: 12%;">
+            <div id="subheader">
+                <div id="title"><strong>ANSWERS AT YOUR FINGERTIPS</strong></div> 
+                <div id="checkbox">
+                    <img src="assets/fontawesome-check-square.png" alt="checkbox" />
+                    <p style="padding-left: 10px;">How many people registered last week? </p>
+                </div>
+                <div id="checkbox">
+                    <img src="assets/fontawesome-check-square.png" alt="checkbox" />
+                    <p style="padding-left: 10px;">What items did each beneficiary receive?</p>
+                </div>
+                <div id="checkbox">
+                    <img src="assets/fontawesome-check-square.png" alt="checkbox" />
+                    <p style="padding-left: 10px;"> How many boxes of soap do we have? </p>
+                </div>
+                <div id="checkbox">
+                    <img src="assets/fontawesome-check-square.png" alt="checkbox" />
+                    <p style="padding-left: 10px;"> Do we have enough stock for our men / women / children? </p>
+                </div>
+            </div>
+            <div>
+                <div id="quote">
+                    Boxtribute saves us a lot of money and nerves. &nbsp<span id="source">Hermine</span>
+                    <br />
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="why-2">
+        <span id="headline-start">WHY IT WORKS &nbsp</span> <span id="headline-end"> Q&A</span>
+        <div id="subheader">
+            <div id="title"><strong>Q: Is Singh-aid only for refugee camps? </strong></div>
+            <span style="font-size: 22px;" ><strong> A: </strong></span> <strong>Not at all!</strong> Although it is a solution that emerged from the intense need we saw in refugee detention centers, Singh-aid is meant to help support vulnerable people in any emergency and post-emergency crisis.
+        </div>
+        <div id="subheader">
+            <div id="title"><strong>Q: Is singh-aid a non-profit? </strong></div>
+            <span style="font-size: 22px;" ><strong> A: </strong></span> <strong>Yes!</strong> We are a registered Dutch foundation under the legal name <i>Stichting Boxwise</i> (KVK number: 76346536 | RSIN: 860596527) since November 2019. 
+          </br></br>
+         Our purpose is to improve the situation of vulnerable people in crisis situations in an effective, sustainable, and replicable way. Vulnerable people should receive what 
+         they need in a dignified, efficient, and responsible manner. Dignity means that everyone is treated as an individual and has their self-determination respected where possible
+         We believe that this is best accomplished by system-level infrastructure change within the humanitarian network. In particular, we aim to address the growing gap
+         between what is needed and what is provided by empowering local actors to run large-scale cooperative relief efforts through technology. 
+        <strong> 
+          Our board member and his positions is  listed in <i><a href="#who">Who we are</a></i>. <strong>None of the board members receive financial remuneration for their roles. </strong> More details are available in the <i>Governance</i> section of our policy plan. 
+          </br></br>
+          Send official mail to: <i> happu20022@gmail.com </i>
+
+        </div>
+        <div id="subheader">
+            <div id="title"><strong>Q: Is singh-aid open source? </strong></div>
+            <span style="font-size: 22px;" ><strong>A: </strong></span> <strong> Yes! </strong> 
+        </div>
+        <div id="subheader">
+            <div id="title"><strong> Q: Didn’t you have another name before? </strong> </div>
+            <span style="font-size: 22px;" ><strong> A: </strong> </span> <strong> Yes, our previous name was Boxwise. </strong> We changed our name to avoid getting mixed up with other companies and logistics systems with the same name, and to showcase our commitment to humanitarian causes.
+        </div>
+        <div id="outreach">
+            To ask us more questions, see a free demo, or for any other inquiries, reach us at <strong> <a href="mailto:hello@boxtribute.org" id="link">hello@singh-aid.org</a></strong> - we read every email!
+        </div>
+    </section>
+
+    <section id="who">
+        <span id="headline-start">WHO WE ARE &nbsp</span> <span id="headline-end"> THE TEAM</span>
+        <div id="subtitle" style="color: #AACFE3;">
+            We are a diverse team of people from around the world brought together by a belief that we can and should use our skills to make a positive impact in the world. singh-aid combines knowlege   we have honed for years in the startup, technology, and logistics sectors with our experiences of what is needed on the ground. It is  a solution we are proud to stand behind. Read more details about our organization, including our policy plan and financial reports 
+        </div>
+        <div id="profiles" style="padding-bottom: 15%;">
+            <div id="profile">
+                <div id="headshot">
+                    <a href="/" target="_blank"><img src="assets/profiles/harpreet.jpeg"/></a>
+                </div>
+                <div>
+                    <strong>Harpreet Singh</strong>
+                    <br/>
+                    student
+                    <br />
+                    Board Member
+                </div>
+            </div>
+        </section>
+           
+    <section id="partners">
+        <span id="headline-start">PARTNERS &nbsp</span> <span id="headline-end"> WORK WITH US</span>
+        <div id="quote">
+     If singh-aid could be rolled out to many other NGOs, I think it would make a lot of people lives a lot easier. &nbsp <div id="source"><p id="empty-paragraph"> </p>  Milli C. former shop manager at Drapen i Havet</div>
+        </div>
+        <div id="centered">
+
+            <div id="text-line">Proven to deliver in the most challenging field conditions. Now being used in <strong id="strong">15</strong> different locations!</div>
+            <p id="bold-line">Want to work with us, or know people who would be? <span id="gold"> Write us at hellosingh-aid.org!</span></p>
+        
+        </div>
+
+        <div class="partners-container">
+
+            <div id="support" class="partners">
+
+                <strong id="strong">16</strong> PARTNER NGOS
+
+
+            </div>
+            <div class="partners-logos">
+                <a class="logo-image-cell" href="https://www.drapenihavet.no/en/home/" target="_blank"><img class="logo-img" src ="assets/partners/65049039_2717080301642735_7040471611790589952_n.png" style="padding: 8px"/></a>
+                <a class="logo-image-cell" href="https://refugee4refugees.gr/" target="_blank"><img class="logo-img" src="assets/partners/R4R.png" style="padding: 8px"/></a>
+                <a class="logo-image-cell" href="https://www.liftinghandsinternational.org/" target="_blank"><img class="logo-img" src="assets/partners/liftinghands.png" style="padding: 8px"/></a>
+                <a class="logo-image-cell" href="https://www.iha.help/" target="_blank"><img class="logo-img" src="assets/partners/iha.png" style="padding: 8px"/></a>
+                <a class="logo-image-cell" href="http://www.mfh.global/hermine" target="_blank"><img class="logo-img" src="assets/partners/Logo_rund_HERMINE-80.png" style="padding: 8px"/></a>
+                <a class="logo-image-cell" href="https://www.facebook.com/DarBazarEmporioSociale/" target="_blank"><img class="logo-img" src="assets/partners/Darbazar.png" style="padding: 8px"/></a>
+                <a class="logo-image-cell" href="https://www.europecares.org/" target="_blank"><img class="logo-img" src="assets/partners/europecares@2x.png" style="padding: 8px"/></a>
+                <a class="logo-image-cell" href="https://grenzenlose-waerme.blog/" target="_blank"><img class="logo-img" src="assets/partners/grenzlosewaerme@2x.png" style="padding: 8px"/></a>
+                <a class="logo-image-cell" href="https://www.hardcore-help.org/" target="_blank"><img class="logo-img" src="assets/partners/hardcorehelp@2x.png" style="padding: 8px"/></a>
+                <a class="logo-image-cell" href="https://lnob.net/en/" target="_blank"><img class="logo-img" src="assets/partners/lnob@2x.png" style="padding: 8px"/></a>
+                <a class="logo-image-cell" href="https://movementontheground.com/" target="_blank"><img class="logo-img" src="assets/partners/motg@2x.png" style="padding: 8px"/></a>
+                <a class="logo-image-cell" href="https://www.thefreeshoplb.org/" target="_blank"><img class="logo-img" src="assets/partners/thefreeshop@2x.png" style="padding: 8px"/></a>
+                <a class="logo-image-cell" href="https://thehealthimpact.org/en/" target="_blank"><img class="logo-img" src="assets/partners/healthimpact@2x.png" style="padding: 8px"/></a>
+                <a class="logo-image-cell" href="https://www.samosvolunteers.org/" target="_blank"><img class="logo-img" src="assets/partners/samosvolunteers@2x.png" style="padding: 8px"/></a>
+                <a class="logo-image-cell" href="https://blindspots.support/" target="_blank"><img class="logo-img" src="assets/partners/blind-spots@2x.png" style="padding: 8px"/></a>
+                <a class="logo-image-cell" href="https://www.collectiveaidngo.org/" target="_blank"><img class="logo-img" src="assets/partners/collectiveaidsmall.png" style="padding: 8px"/></a>
+
+            </div>
+
+            <div id="support" class="locations">
+                <strong id="strong">7</strong> COUNTRIES
+            </div>
+            <div class="location-list">
+                <span class="list-item">GREECE</span>
+                <span class="list-item">LEBANON</span>
+                <span class="list-item">BOSNIA-HERZEGOVINA</span>
+                <span class="list-item">SERBIA</span>
+                <span class="list-item">POLAND</span>
+                <span class="list-item">GERMANY</span>
+                <span class="list-item">ITALY</span>
+            </div>
+        </div>
+    </section>
+
+    <section id="join">
+        <span id="headline-start">JOIN US &nbsp</span> <span id="headline-end"> MAKE A DIFFERENCE</span>
+        <div id="description"> We are always on the lookout for talented and committed volunteers from all walks of life. We especially want to talk to you if you have experience and skills in the following areas:</div>
+        <div id="subheader">
+            <div id="title">
+                <strong>CREATIVE</strong>
+            </div> 
+            We are looking for both content creators of all sorts! In particular, we are looking for UI & Visual designers who can help us unify the look and feel of our website and app, as well as artists or illustrators to help us create some custom graphics. Drop us an email with your portfolio!
+        </div>
+        <div id="subheader">
+            <div id="title">
+                <strong> TECHNOLOGY </strong>
+            </div> 
+            We welcome developers and sysadmins from all backgrounds and experience levels! This includes people who have coded exclusively for research, to people who have several years industry experience. 
+            <br /> <br />
+            We are currently in the process of transitioning our technology stack from a legacy PHP/Smarty app to a modern Python/Flask and ReactJS stack with GraphQL on the data layer. <br />
+        </div>
+        <div id="subheader" style="padding-bottom: 12%;">
+            <div id = "title">
+                <strong> PROJECTS & COMMUNICATIONS </strong>
+            </div> 
+            Help us grow! We are actively looking for people with experience in partnerships, project management, and product management to support us with talking to more organizations and understanding their needs. We are also looking for communication managers and research professionals to help us stay connected with happenings in the humanitarian space.
+                <br /> <br />
+          Interested in getting involved? Write us at <a href="mailto:jointheteam@singh-aid.org" style="color:#000000;">jointheteam@singh-aid.org!</a>
+        <br /> <br />
+        Want to know more about us as a nonprofit organization? Check out our <a href="#why-2">Q&A</a> for all our official details, including our policy plan and financial statements! 
+      
+      </div>
+
+    </section>
+
+    <section id="imprint">
+        <div id="subheader">
+            <div id="title">
+                <strong>IMPRINT</strong>
+            </div> 
+            Stichting Boxwise <br />
+            Overschiesestraat 62 c/o Bart Driessen, 3112 HH Schiedam, Netherlands<br />
+            Reach us at <a href="mailto:hello@singh-aid.org" id="link">hello@singh-aid.org</a> <br />
+            KVK number: 76346536 | RSIN: 860596527 <br />
+            Board member: Harpreet singh <br />
+            Executive Director: Harpreet singh<br />
+            <a href="#why-2">Is singh-aid a non-profit?</a> <br />
+            Data Privacy: We store <strong>no</strong> data about your website visit.
+        </div>
+    </section>
+
+    <p id="albatrot">
+        VISUAL BRANDING BY ALBATROT
+    </p>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="js/pagescroll.js"></script>
+    <script src="js/number_counter.js"></script>
+    <script src="js/navbar.js"></script>
+  </body>
+</div>
+</html>
